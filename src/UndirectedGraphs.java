@@ -11,9 +11,10 @@ public class UndirectedGraphs<V> implements Graph<V> {
     protected Map<V, Set<V>> graph = new HashMap<>();
 
     //This is the method that needs to be implemented, DONT change any other methods in this class.
-    // Such method should return all possible paths from startto endthat are not cyclic.However,
-    // only the paths with a length between minand max(inclusive) should be returned. Code should be efficient,
+    // Such method should return all possible paths from start to end that are not cyclic.However,
+    // only the paths with a length between min and max(inclusive) should be returned. Code should be efficient,
     // i.e., do not compute paths that you know that are going to be discarded due to the length constraints.
+    //Check class: findAllPathsExample, for another similar solution.
     public List<List<V>> findAllPaths(V start, V end, int min, int max) {
         //TODO
     }
