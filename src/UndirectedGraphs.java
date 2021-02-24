@@ -2,25 +2,18 @@
 
 import java.util.*;
 
-/**
- * Undirected means: every time there is a connection
- * (ie an edge) from X to Y, then there is also a connection
- * from Y to X.
- *
- * Created by arcuri82 on 25-Oct-17.
- */
+
 
 //overrides all the methods in interface Graph
 public class UndirectedGraphs<V> implements Graph<V> {
 
-    /**
-     * Key -> a vertex in the graph
-     * Value -> set of all vertices that connect to the Key, ie
-     *          the Key is the "from"/"source"
-     */
+
     protected Map<V, Set<V>> graph = new HashMap<>();
 
     //This is the method that needs to be implemented, DONT change any other methods in this class.
+    // Such method should return all possible paths from startto endthat are not cyclic.However,
+    // only the paths with a length between minand max(inclusive) should be returned. Code should be efficient,
+    // i.e., do not compute paths that you know that are going to be discarded due to the length constraints.
     public List<List<V>> findAllPaths(V start, V end, int min, int max) {
         //TODO
     }

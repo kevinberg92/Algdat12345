@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class findAllPathsExample<V> extends UndirectedGraph<V> {
+public class findAllPathsExample<V> extends UndirectedGraphs<V> {
 
 
     public List<List<V>> findAllPaths(V start, V end) {
