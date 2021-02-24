@@ -14,7 +14,7 @@ public class UndirectedGraphs<V> implements Graph<V> {
     // Such method should return all possible paths from start to end that are not cyclic.However,
     // only the paths with a length between min and max(inclusive) should be returned. Code should be efficient,
     // i.e., do not compute paths that you know that are going to be discarded due to the length constraints.
-    //Check class: findAllPathsExample, for another similar solution.
+    //Check class: findAllPathsExample, for another similar solution only without params min and max.
     public List<List<V>> findAllPaths(V start, V end, int min, int max) {
         //TODO
     }

@@ -1,0 +1,8 @@
+Making an object immutable and list specifically, makes it thread-safe, gives it a higher security and less risk for tampering
+and its also more memory efficient. It makes sure that the value and internal state of the list is not altered when passed around
+since it will be read only. When you create a new reference, you do not alter the immutable list/object but rather create a new reference
+which IS mutable, thus shown in Ex02. A disadvantage is that every time you require a seperate instance of that object (new)
+You will have to create one and creating multiple objects f.instance can be costly and expensive based on size. You should
+take into consideration when maing such class/List immutable, that if its view only or will change as part of the design. If not
+it can make the code both easier or more complex.
+
